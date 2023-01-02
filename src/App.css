@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .css-1jrn2fe-MuiGrid-root {
+  height: auto;
+} */
+
+.left_banner {
+  border-radius: 30px 0 0 30px !important;
+}
+
+.css-n403qi-MuiPaper-root-MuiGrid-root,
+.css-18a4cri-MuiPaper-root-MuiGrid-root {
+  border-radius: 0px 30px 30px 0px !important;
+  box-shadow: unset !important;
+}
+
+/* .css-mhc70k-MuiGrid-root {
+  margin: 0 !important;
+} */
+
+/* .css-1y8ugea {
+  margin-top: 0px !important;
+  margin-bottom: 30px !important;
+  margin-left: 5rem !important;
+  margin-right: 5rem !important;
+} */
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  border: none !important;
+  background: #ECEFFA !important;
+  height: 42px !important;
+  line-height: normal !important;
+  padding: 4px !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  border: none !important;
+  height: 42px !important;
+  line-height: normal !important;
+  padding: 4px !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  border: none !important;
+  background: #ECEFFA !important;
+}
+
+.css-p51h6s-MuiInputBase-input-MuiOutlinedInput-input {
+  background: #40355B !important;
+  border: none !important;
+  height: 42px !important;
+  line-height: normal !important;
+  padding: 4px !important;
+}
+
+.css-q2lp9a-MuiInputBase-root-MuiOutlinedInput-root {
+  background: #40355B !important;
+  border: none !important;
+}
+
+.css-1h9uykw-MuiInputBase-input-MuiOutlinedInput-input {
+  border: none !important;
+  height: 42px !important;
+  line-height: normal !important;
+  padding: 4px !important;
+}
+
+button.google_social_icon {
+  width: 100%;
+}
+
+.face_icon {
+  color: blue;
+}
+
+.apple_icon {
+  color: #000;
+}
+
+.icon_bg {
+  background: #fff;
+  padding: 9px 10px 2px 10px;
+  border-radius: 5px;
+}
+
+.css-n403qi-MuiPaper-root-MuiGrid-root {
+  background: #FCEEFE !important;
+}
+
+.css-1vhaqj4-MuiButtonBase-root-MuiButton-root,
+.css-1vpl9xp-MuiButtonBase-root-MuiButton-root,
+.btn-prm {
+  background: #FF4F57 !important;
+  box-shadow: none !important;
+  height: 50px;
+  color: #fff !important;
+}
+
+.css-18a4cri-MuiPaper-root-MuiGrid-root {
+  background-color: #1E0B4C !important;
+}
+
+.css-w6mvf4-MuiButtonBase-root-MuiIconButton-root,
+.css-whjmaz-MuiButtonBase-root-MuiIconButton-root {
+  border: 1px solid !important;
+}
+
+.css-31ohcg-MuiTypography-root-MuiLink-root {
+  text-decoration: none !important;
+}
+
+.css-15anx50-MuiTypography-root {
+  width: 100% !important;
+}
+
+.css-1wniyei-MuiTypography-root {
+  width: 100%;
+}
+
+.textright {
+  padding-right: 30px;
+  text-align: right;
+}
+
+.full-width {
+  width: 100%;
+}
+
+p#username-helper-text,
+p#email-helper-text,
+p#password-helper-text {
+  color: #FF4F57;
+}
+
+.form_loading {
+  position: absolute;
+  top: 25rem;
+}
+
+form.loading_form {
+  z-index: 0;
+  opacity: 0.3;
+}
