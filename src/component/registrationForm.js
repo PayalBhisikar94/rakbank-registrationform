@@ -99,12 +99,23 @@ function RegistrationForm() {
     if (!fields["password"]) {
       formIsValid = false;
       errors["password"] = "*Please enter your password.";
-    }
+    } else {
+      if (typeof fields["password"] !== "undefined") {
+        // if (!fields["password"].match(/^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%&]).*$/)) {
+        //   formIsValid = false;
+        //   errors["password"] = "*Password must be a strong with a maximum length of 8.";
+        // }
 
-    if (typeof fields["password"] !== "undefined") {
-      if (!fields["password"].match(/^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%&]).*$/)) {
-        formIsValid = false;
-        errors["password"] = "*Password must be a strong with a maximum length of 8.";
+        if (fields["password"].length < 8) {
+          formIsValid = false;
+          errors["password"] = "*Your password must be at least 8 characters";
+        } else if (fields["password"].search(/[a-z]/i) < 0) {
+          formIsValid = false;
+          errors["password"] = "*Your password must contain at least one letter.";
+        } else if (fields["password"].search(/[0-9]/) < 0) {
+          formIsValid = false;
+          errors["password"] = "*Your password must contain at least one digit.";
+        }
       }
     }
 
